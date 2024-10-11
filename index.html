@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/b3348ae33f.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Static Template</title>
+  </head>
+
+  <body class="body_bg">
+    <header>
+      <!--Navigation Bar Start-->
+      <div class="nav-bar">
+        <div class="child-nav-bar">
+          <div id="logo" class="dis-inl">
+            <img src="./images/Ansuman-song-logo.png" />
+          </div>
+          <div class="nav-bar-fav">
+            <span>Favourites</span>
+          </div>
+        </div>
+        <div class="child-nav-bar">
+          <div class="dis-inl search-box">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="search" name="search" placeholder="Search" />
+            <i class="fa-solid fa-microphone"></i>
+          </div>
+
+          <div class="notification">
+            <i class="fa-solid fa-bell"></i>
+          </div>
+
+          <div id="profileimg" class="dis-inl">
+            <img src="./images/profile_image.jpg" />
+          </div>
+          <div class="hamburger-dropdown">
+            <i class="fa-solid fa-bars fa-xl"></i>
+            <div class="drop-down">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-heart tr"></i>
+                  <a href="#">Add To Favourites </a>
+                </li>
+                <hr class="new1" />
+                <li>
+                  <i class="fa-solid fa-bell"></i>
+                  <a href="#">Notifications</a>
+                </li>
+                <hr class="new1" />
+                <li>
+                  <i class="fa-solid fa-circle-info tr"></i>
+                  <a href="#">Get Help</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Navigation Bar End-->
+    </header>
+
+    <main class="dis-inl">
+      <div class="carousel-banner">
+        <div class="img-Container">
+          <div class="slide-div" id="slide-1">
+            <img
+              src="./images/festival_hits.jpeg"
+              alt="img"
+              class="img"
+              id="img1"
+            />
+          </div>
+          <div class="slide-div" id="slide-2">
+            <img
+              src="./images/top_songs.jpeg"
+              alt="img"
+              class="img"
+              id="img2"
+            />
+          </div>
+          <div class="slide-div" id="slide-3">
+            <img
+              src="./images/club_house.jpeg"
+              alt="img"
+              class="img"
+              id="img3"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="latest-release">
+        <div class="main-heading">Latest Release</div>
+        <!-- Latest Release Start -->
+        <div class="latest-release-list">
+          <div class="latest-release-card">
+            <div class="latest-release-card-sub-flex">
+              <div class="latest-release-img">
+                <img src="./images/drivers_license.jpeg" />
+                <a href="#">
+                  <i class="fa-sharp fa-solid fa-play"></i>
+                </a>
+              </div>
+              <div class="latest-release-details">
+                <span id="song-name">Drivers License</span>
+                <span id="singer">Olivia Rodrigo</span>
+              </div>
+              <div class="latest-release-hamicontime">
+                <i class="fa-solid fa-ellipsis"></i>
+                <div class="song-drop-down">
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-play tr"></i>
+                      <a href="#">Play Now </a>
+                    </li>
+                    <hr class="new1" />
+                    <li>
+                      <i class="fa-solid fa-plus tr"></i>
+                      <a href="#">Add To Queue </a>
+                    </li>
+                    <hr class="new1" />
+                    <li>
+                      <i class="fa-solid fa-heart tr"></i>
+                      <a href="#">Add To Favourites </a>
+                    </li>
+                    <hr class="new1" />
+                    <li>
+                      <i class="fa-solid fa-circle-info tr"></i>
+                      <a href="#">Get Info</a>
+                    </li>
+                  </ul>
+                </div>
+                <span id="time">4:42</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="latest-release-card">
+            <div class="latest-release-card-sub-flex">
+              <div class="latest-release-img">
+                <img src="./images/perfect.jpg" />
+                <a href="#footer">
+                  <i class="fa-sharp fa-solid fa-play"></i>
+                </a>
+              </div>
+              <div class="latest-release-details">
+                <span id="song-name">Perfect</span>
+                <span id="singer">Ed Sheeran</span>
+              </div>
+              <div class="latest-release-hamicontime">
+                <i class="fa-solid fa-ellipsis"></i>
+                <div class="song-drop-down">
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-play tr"></i>
+                      <a href="#">Play Now </a>
+                    </li>
+                    <hr class="new1" />
+                    <li>
+                      <i class="fa-solid fa-plus tr"></i>
+                      <a href="#">Add To Queue </a>
+                    </li>
+                    <hr class="new1" />
+                    <li>
+                      <i class="fa-solid fa-heart tr"></i>
+                      <a href="#">Add To Favourites </a>
+                    </li>
+                    <hr class="new1" />
+                    <li>
+                      <i class="fa-solid fa-circle-info tr"></i>
+                      <a href="#">Get Info</a>
+                    </li>
+                  </ul>
+                </div>
+                <span id="time">3:44</span>
+              </div>
+            </div>
+          </div>
+          <div class="latest-release-card">
+            <div class="latest-release-card-sub-flex">
+              <div class="latest-release-img">
+                <img src="./images/kanave_kanave.jpeg" />
+                <a href="#">
+                  <i class="fa-sharp fa-solid fa-play"></i>
+                </a>
+              </div>
+              <div class="latest-release-details">
+                <span id="song-name">Kanave Kanave</span>
+                <span id="singer">Anirudh</span>
+              </div>
+              <div class="latest-release-hamicontime">
+                <i class="fa-solid fa-ellipsis"></i>
+                <div class="song-drop-down">
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-play tr"></i>
+                      <a href="#">Play Now </a>
+                    </li>
+                    <hr class="new1" />
+                    <li>
+                      <i class="fa-solid fa-plus tr"></i>
+                      <a href="#">Add To Queue </a>
+                    </li>
+                    <hr class="new1" />
+                    <li>
+                      <i class="fa-solid fa-heart tr"></i>
+                      <a href="#">Add To Favourites </a>
+                    </li>
+                    <hr class="new1" />
+                    <li>
+                      <i class="fa-solid fa-circle-info tr"></i>
+                      <a href="#">Get Info</a>
+                    </li>
+                  </ul>
+                </div>
+                <span id="time">2:30</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="latest-release-card">
+            <div class="latest-release-card-sub-flex">
+              <div class="latest-release-img">
+                <img src="./images/tum_se.jpg" />
+                <a href="#">
+                  <i class="fa-sharp fa-solid fa-play"></i>
+                </a>
+              </div>
+              <div class="latest-release-details">
+                <span id="song-name">Tum Se</span>
+                <span id="singer">Sachin Jigar</span>
+              </div>
+              <div class="latest-release-hamicontime">
+                <i class="fa-solid fa-ellipsis"></i>
+                <div class="song-drop-down">
+                  <ul>
+                    <li>
+                      <i class="fa-solid fa-play tr"></i>
+                      <a href="#">Play Now </a>
+                    </li>
+                    <hr class="new1" />
+                    <li>
+                      <i class="fa-solid fa-plus tr"></i>
+                      <a href="#">Add To Queue </a>
+                    </li>
+                    <hr class="new1" />
+                    <li>
+                      <i class="fa-solid fa-heart tr"></i>
+                      <a href="#">Add To Favourites </a>
+                    </li>
+                    <hr class="new1" />
+                    <li>
+                      <i class="fa-solid fa-circle-info tr"></i>
+                      <a href="#">Get Info</a>
+                    </li>
+                  </ul>
+                </div>
+                <span id="time">4:44</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Latest Release End -->
+      <!-- Popular Artist Start -->
+      <div class="popular-artist">
+        <div class="main-heading">Popular Artist</div>
+        <div class="popular-artist-list">
+          <div class="popular-artist-card">
+            <div class="popular-artist-img">
+              <img src="./images/kk.webp" />
+              <a href="kk_playlist.html">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span>KK</span>
+          </div>
+          <div class="popular-artist-card">
+            <div class="popular-artist-img">
+              <img src="./images/katy_perry.jpeg" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span>Katy Perry</span>
+          </div>
+          <div class="popular-artist-card">
+            <div class="popular-artist-img">
+              <img src="./images/bruno_mars.jpg" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span>Bruno Mars</span>
+          </div>
+          <div class="popular-artist-card">
+            <div class="popular-artist-img">
+              <img src="./images/shreya_ghoshal.webp" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span>Shreya Ghoshal</span>
+          </div>
+          <div class="popular-artist-card">
+            <div class="popular-artist-img">
+              <img src="./images/arijit_singh.jpeg" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span>Arijit Singh</span>
+          </div>
+          <div class="popular-artist-card">
+            <div class="popular-artist-img">
+              <img src="./images/miley_cyrus.avif" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span>Miley Cyrus</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="station">
+        <div class="station-list">
+          <div class="station-card">
+            <div class="station-card-main-img">
+              <img src="./images/music_station.png" />
+            </div>
+          </div>
+          <div class="station-card">
+            <div class="station-card-img">
+              <img src="./images/retro.png" />
+            </div>
+          </div>
+          <div class="station-card">
+            <div class="station-card-img">
+              <img src="./images/chill.png" />
+            </div>
+          </div>
+          <div class="station-card">
+            <div class="station-card-img">
+              <img src="./images/love.png" />
+            </div>
+          </div>
+          <div class="station-card">
+            <div class="station-card-img">
+              <img src="./images/pop.png" />
+            </div>
+          </div>
+          <div class="station-card">
+            <div class="station-card-img">
+              <img src="./images/gym.png" />
+            </div>
+          </div>
+          <div class="station-card">
+            <div class="station-card-img">
+              <img src="./images/rock.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="genre">
+        <div class="genre-list">
+          <div class="genre-list-card">
+            <img src="./images/party.webp" />
+            <span>PARTY</span>
+          </div>
+          <div class="genre-list-card">
+            <img src="./images/electronic.webp" />
+            <span>ELECTRONIC</span>
+          </div>
+          <div class="genre-list-card">
+            <img src="./images/road_trip.jpeg" />
+            <span>ROAD TRIP</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="language-song">
+        <div class="main-heading">Latest English</div>
+        <div class="language-song-list">
+          <div class="language-song-card">
+            <div class="language-song-img">
+              <img src="./images/eyes_closed.jpeg" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span id="song-name">Eyes Closed</span>
+            <span id="singer">Imagine Dragon</span>
+          </div>
+          <div class="language-song-card">
+            <div class="language-song-img">
+              <img src="./images/love_on.png" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span id="song-name">Love On</span>
+            <span id="singer">Selena Gomez</span>
+          </div>
+          <div class="language-song-card">
+            <div class="language-song-img">
+              <img src="./images/houdini.jpeg" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span id="song-name">Houdini</span>
+            <span id="singer">Dua Lipa</span>
+          </div>
+          <div class="language-song-card">
+            <div class="language-song-img">
+              <img src="./images/let_it_go.jpg" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span id="song-name">Let It Go</span>
+            <span id="singer">Sean Kennedy</span>
+          </div>
+          <div class="language-song-card">
+            <div class="language-song-img">
+              <img src="./images/we_cant_be_friends.jpg" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span id="song-name">We Can't Be Friends</span>
+            <span id="singer">Ariana Grande</span>
+          </div>
+          <div class="language-song-card">
+            <div class="language-song-img">
+              <img src="./images/loose_control.jpeg" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span id="song-name">Lose Control</span>
+            <span id="singer">Teddy Swims</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="language-song">
+        <div class="main-heading">Latest Hindi</div>
+        <div class="language-song-list">
+          <div class="language-song-card">
+            <div class="language-song-img">
+              <img src="./images/sajni_re.jpeg" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span id="song-name">Sajni Re</span>
+            <span id="singer">Arijit Singh</span>
+          </div>
+          <div class="language-song-card">
+            <div class="language-song-img">
+              <img src="./images/humdum.jpeg" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span id="song-name">Humdum</span>
+            <span id="singer">Vishal Mishra</span>
+          </div>
+          <div class="language-song-card">
+            <div class="language-song-img">
+              <img src="./images/chaleya.jpg" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span id="song-name">Chaleya</span>
+            <span id="singer">Arijit Singh</span>
+          </div>
+          <div class="language-song-card">
+            <div class="language-song-img">
+              <img src="./images/akhiyan_gulab.jpg" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span id="song-name">Akhiyaan Gulaab</span>
+            <span id="singer">Mitraz</span>
+          </div>
+          <div class="language-song-card">
+            <div class="language-song-img">
+              <img src="./images/pehle_bhi_mai.jpg" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span id="song-name">Pehle Bhi Mai</span>
+            <span id="singer">Vishal Mishra</span>
+          </div>
+          <div class="language-song-card">
+            <div class="language-song-img">
+              <img src="./images/heeriye.jpg" />
+              <a href="#">
+                <i class="fa-sharp fa-solid fa-play"></i>
+              </a>
+            </div>
+            <span id="song-name">Heeriye</span>
+            <span id="singer">Jasleen Royal</span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <aside>
+      <!--Queue Header Start-->
+      <div class="queue-nav-bar">
+        <div class="queue-heading dis-inl">
+          <span>Queue</span>
+        </div>
+        <div class="queue-button dis-inl">
+          <span>Queue</span>
+
+          <div class="queue-drop-down">
+            <ul>
+              <li>
+                <i class="fa-solid fa-play tr"></i>
+                <a href="#">Play Now </a>
+              </li>
+              <hr class="new1" />
+              <li>
+                <i class="fa-solid fa-plus tr"></i>
+                <a href="#">Add To Queue </a>
+              </li>
+            </ul>
+          </div>
+
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+      </div>
+      <!--Queue Header End-->
+      <!--Queue List Start-->
+      <div class="queue-list">
+        <div class="queue-list-cards">
+          <div class="queue-list-cards-sub-flex">
+            <div class="queue-list-cards-serial-no">
+              <i class="fa-solid fa-play tr"></i>
+              <span>01</span>
+            </div>
+
+            <div class="queue-song-img">
+              <img src="./images/drivers_license.jpeg" />
+            </div>
+
+            <div class="queue-list-cards-song-details">
+              <span id="song-name">Drivers License</span>
+              <span id="song-singer">Olivia Rodrigo</span>
+            </div>
+          </div>
+          <div class="queue-list-cards-fav-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="queue-list-cards">
+          <div class="queue-list-cards-sub-flex">
+            <div class="queue-list-cards-serial-no">
+              <i class="fa-solid fa-play tr"></i>
+              <span>02</span>
+            </div>
+
+            <div class="queue-song-img">
+              <img src="./images/tum_se.jpg" />
+            </div>
+
+            <div class="queue-list-cards-song-details">
+              <span id="song-name">Tum se</span>
+              <span id="song-singer">Sachin Jigar</span>
+            </div>
+          </div>
+          <div class="queue-list-cards-fav-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="queue-list-cards">
+          <div class="queue-list-cards-sub-flex">
+            <div class="queue-list-cards-serial-no">
+              <i class="fa-solid fa-play tr"></i>
+              <span>03</span>
+            </div>
+
+            <div class="queue-song-img">
+              <img src="./images/perfect.jpg" />
+            </div>
+
+            <div class="queue-list-cards-song-details">
+              <span id="song-name">Perfect</span>
+              <span id="song-singer">Ed Sheeran</span>
+            </div>
+          </div>
+          <div class="queue-list-cards-fav-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="queue-list-cards">
+          <div class="queue-list-cards-sub-flex">
+            <div class="queue-list-cards-serial-no">
+              <i class="fa-solid fa-play tr"></i>
+              <span>04</span>
+            </div>
+
+            <div class="queue-song-img">
+              <img src="./images/kanave_kanave.jpeg" />
+            </div>
+
+            <div class="queue-list-cards-song-details">
+              <span id="song-name">Kanave Kanave</span>
+              <span id="song-singer">Anirudh</span>
+            </div>
+          </div>
+          <div class="queue-list-cards-fav-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="queue-list-cards">
+          <div class="queue-list-cards-sub-flex">
+            <div class="queue-list-cards-serial-no">
+              <i class="fa-solid fa-play tr"></i>
+              <span>05</span>
+            </div>
+
+            <div class="queue-song-img">
+              <img src="./images/drivers_license.jpeg" />
+            </div>
+
+            <div class="queue-list-cards-song-details">
+              <span id="song-name">Drivers License</span>
+              <span id="song-singer">Olivia Rodrigo</span>
+            </div>
+          </div>
+          <div class="queue-list-cards-fav-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="queue-list-cards">
+          <div class="queue-list-cards-sub-flex">
+            <div class="queue-list-cards-serial-no">
+              <i class="fa-solid fa-play tr"></i>
+              <span>06</span>
+            </div>
+
+            <div class="queue-song-img">
+              <img src="./images/tum_se.jpg" />
+            </div>
+
+            <div class="queue-list-cards-song-details">
+              <span id="song-name">Tum se</span>
+              <span id="song-singer">Sachin Jigar</span>
+            </div>
+          </div>
+          <div class="queue-list-cards-fav-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="queue-list-cards">
+          <div class="queue-list-cards-sub-flex">
+            <div class="queue-list-cards-serial-no">
+              <i class="fa-solid fa-play tr"></i>
+              <span>07</span>
+            </div>
+
+            <div class="queue-song-img">
+              <img src="./images/perfect.jpg" />
+            </div>
+
+            <div class="queue-list-cards-song-details">
+              <span id="song-name">Perfect</span>
+              <span id="song-singer">Ed Sheeran</span>
+            </div>
+          </div>
+          <div class="queue-list-cards-fav-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="queue-list-cards">
+          <div class="queue-list-cards-sub-flex">
+            <div class="queue-list-cards-serial-no">
+              <i class="fa-solid fa-play tr"></i>
+              <span>09</span>
+            </div>
+
+            <div class="queue-song-img">
+              <img src="./images/kanave_kanave.jpeg" />
+            </div>
+
+            <div class="queue-list-cards-song-details">
+              <span id="song-name">Kanave Kanave</span>
+              <span id="song-singer">Anirudh</span>
+            </div>
+          </div>
+          <div class="queue-list-cards-fav-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+        <div class="queue-list-cards">
+          <div class="queue-list-cards-sub-flex">
+            <div class="queue-list-cards-serial-no">
+              <i class="fa-solid fa-play tr"></i>
+              <span>10</span>
+            </div>
+
+            <div class="queue-song-img">
+              <img src="./images/drivers_license.jpeg" />
+            </div>
+
+            <div class="queue-list-cards-song-details">
+              <span id="song-name">Drivers License</span>
+              <span id="song-singer">Olivia Rodrigo</span>
+            </div>
+          </div>
+          <div class="queue-list-cards-fav-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="queue-list-cards">
+          <div class="queue-list-cards-sub-flex">
+            <div class="queue-list-cards-serial-no">
+              <i class="fa-solid fa-play tr"></i>
+              <span>11</span>
+            </div>
+
+            <div class="queue-song-img">
+              <img src="./images/tum_se.jpg" />
+            </div>
+
+            <div class="queue-list-cards-song-details">
+              <span id="song-name">Tum se</span>
+              <span id="song-singer">Sachin Jigar</span>
+            </div>
+          </div>
+          <div class="queue-list-cards-fav-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="queue-list-cards">
+          <div class="queue-list-cards-sub-flex">
+            <div class="queue-list-cards-serial-no">
+              <i class="fa-solid fa-play tr"></i>
+              <span>12</span>
+            </div>
+
+            <div class="queue-song-img">
+              <img src="./images/perfect.jpg" />
+            </div>
+
+            <div class="queue-list-cards-song-details">
+              <span id="song-name">Perfect</span>
+              <span id="song-singer">Ed Sheeran</span>
+            </div>
+          </div>
+          <div class="queue-list-cards-fav-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="queue-list-cards">
+          <div class="queue-list-cards-sub-flex">
+            <div class="queue-list-cards-serial-no">
+              <i class="fa-solid fa-play tr"></i>
+              <span>13</span>
+            </div>
+
+            <div class="queue-song-img">
+              <img src="./images/kanave_kanave.jpeg" />
+            </div>
+
+            <div class="queue-list-cards-song-details">
+              <span id="song-name">Kanave Kanave</span>
+              <span id="song-singer">Anirudh</span>
+            </div>
+          </div>
+          <div class="queue-list-cards-fav-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+        <div class="queue-list-cards">
+          <div class="queue-list-cards-sub-flex">
+            <div class="queue-list-cards-serial-no">
+              <i class="fa-solid fa-play tr"></i>
+              <span>14</span>
+            </div>
+
+            <div class="queue-song-img">
+              <img src="./images/drivers_license.jpeg" />
+            </div>
+
+            <div class="queue-list-cards-song-details">
+              <span id="song-name">Drivers License</span>
+              <span id="song-singer">Olivia Rodrigo</span>
+            </div>
+          </div>
+          <div class="queue-list-cards-fav-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+
+        <div class="queue-list-cards">
+          <div class="queue-list-cards-sub-flex">
+            <div class="queue-list-cards-serial-no">
+              <i class="fa-solid fa-play tr"></i>
+              <span>15</span>
+            </div>
+
+            <div class="queue-song-img">
+              <img src="./images/tum_se.jpg" />
+            </div>
+
+            <div class="queue-list-cards-song-details">
+              <span id="song-name">Tum se</span>
+              <span id="song-singer">Sachin Jigar</span>
+            </div>
+          </div>
+          <div class="queue-list-cards-fav-icon">
+            <i class="fa-regular fa-heart"></i>
+          </div>
+        </div>
+      </div>
+      <!--Queue Header End-->
+    </aside>
+
+    <footer id="footer" class="footer-div">
+      <div class="left">
+        <img src="./images/perfect.jpg" alt="Err" />
+        <div class="songName">
+          <span class="upper">
+            <marquee scrollamount="3" direction="left" class="tr"
+              >Perfect</marquee
+            >
+          </span>
+          <br />
+          <span class="lower">Ed Sheeran</span>
+        </div>
+        <div class="icon">
+          <i class="fa-regular fa-heart"></i
+          ><i class="fa-solid fa-circle-exclamation"></i>
+        </div>
+      </div>
+      <div class="audio">
+        <audio controls src="./music/Perfect Ed Sheeran.mp3"></audio>
+      </div>
+      <div class="right">
+        <i class="fa-solid fa-list-ul tr"></i>
+        <i class="fa-solid fa-radio tr"></i>
+        <i class="fa-solid fa-volume-high tr"></i>
+        <input type="range" />
+        <i class="fa-solid fa-up-right-and-down-left-from-center tr"></i>
+      </div>
+    </footer>
+  </body>
+
+  <script src="script.js"></script>
+</html>
